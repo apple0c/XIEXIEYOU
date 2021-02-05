@@ -6,7 +6,7 @@ name: 京东删除优惠券
 on:
     workflow_dispatch:
     schedule:
-        - cron: "* 8 * * *"
+        - cron: "0 3 * * *"
     watch:
         types: [started]
     repository_dispatch:
